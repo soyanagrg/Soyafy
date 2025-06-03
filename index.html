@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Soyafy</title>
+    <link rel="stylesheet" href="index.css"/>
+    <link rel="icon" type="image/x-icon" href="images/doraemon.png">
+</head>
+
+<body>
+    <div class="body">
+        <div class="welcome">
+            <img src="images/doraemon.png" alt="Soyafy logo" width="50px" usemap="#workmap"/>
+            
+            <map name="workmap">
+                <area shape="default" alt="Soyafy" href="home.html">
+            </map>
+
+            <h1>Log in to Soyafy</h1>
+        </div>
+        
+        <form action="home.html" method="get">
+            <div class="easy-log-in">
+                <button type="button">
+                    <img src="images/google-logo.png" width="4%" alt="Google logo"> Continue with Google
+                </button><br>
+                <button type="button">
+                    <img src="images/facebook-logo.png" width="3%" alt="Facebook logo"> Continue with Facebook
+                </button><br>
+                <button type="button">
+                    <img src="images/apple-logo.png" width="6%" alt="Apple logo"> Continue with Apple
+                </button><br>
+            </div>
+            
+            <hr>
+            
+            <div class="log-in">
+                <label for="Email-or-Username"><strong>Email or Username</strong></label><br>
+                <input type="text" id="Email-or-Username" name="username" placeholder="Email or Username"><br>
+                <button type="submit" id="continue"><strong>Continue</strong></button>
+            </div>
+
+            <div class="sign-up">
+                <p style="color: rgba(255, 255, 255, 0.5)">
+                    Don't have an account?
+                    <a href="Sign-Up.html" style="color: white;">Sign up for Soyafy</a>
+                </p>
+            </div>
+        </form>
+    </div>
+</body>
+</html>

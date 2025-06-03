@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    background-color: black;
+
+}
+
+header {
+    background-color: black;
+    position: sticky;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 0 10px;
+}
+
+.Profile-header{
+    margin-left: auto;
+}
+
+#search-bar{
+    color: rgba(255, 255, 255, 0.5);
+    border: 1.5px solid white;
+    background-image: url(images/search-icon.png);
+    background-color: transparent;
+    background-size: 6%;
+    background-repeat: no-repeat;
+    background-position: left;
+    border-radius: 50px;
+    width: 500px;
+    height: 30px;
+    text-align: center;
+    padding: 0.5rem 1rem;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+aside {
+    padding: 0.5rem 1rem;
+    margin: 0.5rem;
+    background-color: #121212;
+    width: 25%;
+    color: white;
+    border-radius: 10px;
+    height: 500px;
+    display: flex;
+    flex-direction: row;
+}
+
+button {
+    padding: 0.5rem 1rem;
+    border-radius: 50px;
+
+    height: 30px;
+    width: 80px;
+}
+
+@media (max-width: 768px) {
+    .home-section {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .text {
+        padding-right: 0;
+    }
+
+    .text h1 {
+        font-size: 48px;
+    }
+
+    body {
+        width: 90%;
+        margin: 5%;
+    }
+}
